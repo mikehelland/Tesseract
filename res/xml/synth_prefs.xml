@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+          android:title="@string/pref_autoremove"
+          android:key="autoremove"
+          android:defaultValue="4"
+          android:entries="@array/autoremove"
+          android:entryValues="@array/autoremove"/>
+
+  <ListPreference
+		android:title="@string/pref_quantizer"
+		android:key="quantizer"
+        android:defaultValue="0,2,4,5,7,9,11"
+		android:entries="@array/quantizer_entries"
+		android:entryValues="@array/quantizer_values"/>
+		
+  <ListPreference
+		android:title="@string/pref_octaves"
+		android:key="octaves"
+		android:defaultValue="4"
+		android:entries="@array/octaves_both"
+		android:entryValues="@array/octaves_both"/>
+
+
+    <ListPreference
+          android:title="@string/pref_base"
+          android:key="base"
+          android:defaultValue="36"
+          android:entries="@array/base_captions"
+          android:entryValues="@array/base"/>
+
+    <CheckBoxPreference
+            android:title="@string/pref_colordesc"
+            android:key="showColorDesc"
+            android:defaultValue="true"/>
+
+</PreferenceScreen>

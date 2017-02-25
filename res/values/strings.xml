@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tesseract</string>
+
+
+    <string name="grooveinfo">Info</string>
+
+    <string name="loop_modes">Try both Loop Modes! </string>
+
+
+    <string name="loop_together">Similar to the 2-D MonadPad, the first draw sets the loop\'s length.
+        All overdubs start and stop according to the master loop. \n\n
+        This mode is useful for doing sophisticated choreography between different sounds.</string>
+
+    <string name="loop_separate">Each draw in this mode loops at its own individual pace.
+        \n\n
+        This mode is useful for investigating polyrhythms and chaos.</string>
+
+    <string name="try_both_loop_modes">Try both Loop Modes!</string>
+
+    <string name="synth_preferences_menu">Settings</string>
+
+    <string name="pref_colordesc">Describe Colors</string>
+
+    <string name="pref_onlineJam">Online Jam</string>
+    <string name="pref_octaves">Octaves</string>
+    <string name="pref_base">Bottom Note</string>
+    <string name="pref_autoremove">Auto remove</string>
+    <string name="pref_quantizer">Pitch quantizer</string>
+
+    <string-array name="instruments">
+        <item>Soft Sin + Delay</item>
+        <item>Sin</item>
+        <item>Soft Sqr + Delay</item>
+        <item>Sqr + Delay</item>
+        <item>Soft Sqr + Flange</item>
+        <item>Sqr</item>
+        <item>Soft Sqr</item>
+        <item>Soft Saw</item>
+        <item>Saw</item>
+        <item>Soft Saw + Delay</item>
+        <item>Saw+ Delay</item>
+    </string-array>
+
+
+</resources>
